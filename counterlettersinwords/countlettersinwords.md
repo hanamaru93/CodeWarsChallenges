@@ -1,12 +1,25 @@
-# Create a function that accepts a string and a single character, and returns an integer of the count of occurrences the 2nd argument is found in the first one.
+<div id="badges" align="center">
 
-## If no occurrences can be found, a count of 0 should be returned.
+![](../img/code.png)
 
->
-> ("Hello", 'o')  =>  1
-> ("Hello", 'l')  =>  2
-> ("", 'z')       =>  0
->
+<a href="https://www.codewars.com/users/hanamaru93"> ![Static Badge](https://img.shields.io/badge/CodeWars_Profile%3A-hanamaru93-red?style=social&logo=codewars) </a> <br>
+![Static Badge](https://img.shields.io/badge/_Ruby-red?style=plastic&logo=ruby)
+
+</div>
+
+# ![Static Badge](https://img.shields.io/badge/Kata_Level:_8Kyu%20-black?style=plastic) <br> All Star Code Challenge #18
+
+
+### Create a function that accepts a string and a single character, and returns an integer of the count of occurrences the 2nd argument is found in the first one.
+
+### If no occurrences can be found, a count of 0 should be returned.
+
+```
+ ("Hello", 'o')  =>  1
+ ("Hello", 'l')  =>  2
+ ("", 'z')       =>  0
+
+```
 
 #### Notes
 - The first argument can be an empty string
@@ -15,7 +28,7 @@
 ###### To certified result use this test:
 
 
-
+```
 describe "Basic Tests" do
   it "should pass basic tests" do
     Test.assert_equals(str_count('Hello', 'o'), 1)
@@ -43,3 +56,4 @@ describe "Random Tests" do
     end
   end
 end
+```
