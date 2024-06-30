@@ -3,7 +3,7 @@ def solution(number)
     count = 0
     if number > 0
       while count <= number
-        if count % 3 == 0 or count % 5 == 0
+        if count % 3 == 0 or count % 5 == 0 or count % 6 == 0 or count % 9 == 0 or count % 10 == 0 or count % number == 0
           sum += count
         end
       count += 1
