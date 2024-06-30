@@ -25,7 +25,9 @@
 - The first argument can be an empty string
 - In languages with no distinct character data type, the second argument will be a string of length 1
 
-###### To certified result use this test:
+---
+
+#### To certified result use this test:
 
 
 ```
